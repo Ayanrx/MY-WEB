@@ -1,0 +1,277 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-image: url('./Img/BG.jpg');
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: white;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0 0 30px #81beff;
+}
+
+main {
+    text-align: center;
+}
+
+h1 {
+    font-size: 60px;
+    margin: 20px 0;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-shadow: 0 0 50px #ff8181;
+}
+
+h2 {
+        font-size: 30px;
+    font-weight: 800;
+    margin: 20px 0;
+    color: white;
+    }
+
+p {
+    font-size: 1.2em;
+    margin: 10px 0 20px;
+    color: rgb(159, 167, 169);
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+    background-color: #14466c;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 0 0px #81beff;
+    transition: 0.5s;
+}
+
+button:hover {
+    background-color: #81beff;
+    box-shadow: 0 0 20px #81beff;
+}
+
+.image-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Product grid styling */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 20px; /* Space between grid items */
+    margin-top: 20px; /* Margin above the grid */
+}
+
+/* Product item styling */
+.product-item {
+    background-color:  #14466c3b;; /* Background color for each product item */
+    border: 1px solid #0845a1; /* Border around product items */
+    border-radius: 5px; /* Rounded corners */
+    padding: 15px; /* Padding inside product items */
+    text-align: center; /* Center align text */
+}
+
+.product-item img {
+    max-width: 100%; /* Make image responsive */
+    height: auto; /* Keep aspect ratio */
+}
+
+/* Search container styling */
+.search-container {
+    text-align: center;
+       margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px; /* Adds spacing between the input and button */
+}
+
+/* Wrapper for input and icon */
+.input-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+/* Magnifying glass icon styling */
+.icon {
+    position: absolute;
+    left: 10px;
+    width: 16px;
+    height: 16px;
+    opacity: 0.6; /* Optional: makes the icon slightly transparent */
+}
+
+/* Search input field styling */
+input[type="text"] {
+    padding: 10px 10px 10px 35px; /* Adds padding on the left for the icon */
+    width: 300px;
+    border: 2px solid #14466c; /* Adds border around the input */
+    border-radius: 5px 0 0 5px; /* Rounded corners on the left side only */
+    outline: none;
+}
+
+/* Search button styling */
+.search-button {
+    padding: 10px 15px;
+    font-size: 1em;
+    color: white;
+    background-color: #14466c;
+}
+
+/* Button hover effect */
+.search-button:hover {
+    background-color: #81beff;
+}
+
+.product-item h3 {
+    font-weight: bold;
+    color: white;
+    text-shadow: 0 0 20px #81beff;
+    margin: 10px 0; /* Add spacing if needed */
+    font-size: 1.5em; /* Adjust font size as needed */
+}
+.product-price {
+    font-weight: bold;
+    color: white;
+    text-shadow: 0 0 20px #ff8581;
+    margin: 10px 0; /* Add spacing if needed */
+    font-size: 1.5em; /* Adjust font size as needed */
+}
+/* Footer styling */
+footer {
+    background-color: #163e5c69;
+    color: white;
+    padding: 20px 0;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 15px;
+}
+
+.footer-section {
+    margin: 10px 20px;
+}
+
+.footer-section h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #81beff;
+}
+
+.social-media a {
+    margin: 0 10px;
+    display: inline-block;
+    transition: opacity 0.3s;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.social-media img {
+    width: 40px;
+    height: 40px;
+    margin-left: -20px; /* Adjust this value as needed */
+   }
+
+.social-media a:hover {
+    opacity: 0.7;
+}
+
+.footer-bottom {
+    border-top: 1px solid #81beff;
+    padding-top: 10px;
+    font-size: 0.9em;
+    color: #cccccc;
+    text-align: center;
+}
+
+h4{ font-size: 14px;
+    margin-top: -15px;
+    color: rgb(159, 167, 169);}
+
+    .Footerbtn {
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    .Footerbtn button {
+        padding: 10px 20px;
+        font-size: 18px;
+        font-weight: bold;
+        color: white;
+        background-color: #1f5e8f;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        box-shadow: 0 0 0px #81beff;
+        transition: 0.5s;
+        margin-left: -30px;
+    }
+    
+    .Footerbtn button:hover {
+        background-color: #81beff;
+        box-shadow: 0 0 20px #81beff;
+    }
+    /* Fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px); /* Optional: add a slight slide-up effect */
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Animation class for product items */
+.product-item {
+    opacity: 0; /* Start with opacity 0 for animation */
+    animation: fadeIn 0.5s ease forwards;
+    animation-delay: 0.1s; /* Stagger the appearance slightly */
+}
+h5{ font-size: 16px;
+     color: rgb(139, 139, 139);
+    text-align: left;
+    text-shadow: 0 0 30px #ffffff;
+    transform: translate(-600px, 30px);
+}

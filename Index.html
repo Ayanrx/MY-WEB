@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front End Website</title>
+    <!-- Google Fonts Link for Oswald -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <!-- Link to your CSS file -->
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+
+<header>
+    <div class="title">Ayan Bilas Roy</div>
+    <h5>CSE2302029036</h5>
+    <button>Sign Up</button>
+</header>
+
+<main>
+    <h1>Apollo Rx31 Gen 3</h1>
+    <p>Step into a world where cutting-edge technology meets sleek design. At Here, we specialize in high-quality <br> robots and futuristic armor, perfect for enthusiasts, collectors, and anyone looking to embrace the future.</p>
+    <button>Buy Now</button>
+
+    <div class="image-container">
+        <img src="./Img/Demo Robo2.png" alt="Big Image" style="max-width: 100%; height: auto;">
+    </div>
+
+    <div class="search-container">
+        <div class="input-wrapper">
+            <img src="./Img/Search.png" alt="" class="icon">
+            <input type="text" id="searchInput" placeholder="Search 'Robot' or 'Armor' to Get Products.." aria-label="Search Box">
+        </div>
+        <button class="search-button" onclick="performSearch()">Search</button>
+    </div>
+    
+    <!-- Product Showcase Grid -->
+    <div id="productGrid" class="product-grid"></div>
+</main>
+<footer>
+    <div class="footer-content">
+        <div class="footer-section">
+            <h2>Robots and Armors</h2>
+            <h4> Empowering the Future, One Innovation at a Time</h4>
+            <ul>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Report</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h2>Follow Us</h2>
+            <div class="social-media">
+                <a href="https://facebook.com" target="_blank"><img src="./Img/FB.png" alt="Facebook"></a>
+                <a href="https://twitter.com" target="_blank"><img src="./Img/X.png" alt="Twitter"></a>
+                <a href="https://instagram.com" target="_blank"><img src="./Img/ins.png" alt="Instagram"></a>
+                <a href="https://linkedin.com" target="_blank"><img src="./Img/Li.png" alt="LinkedIn"></a>
+            </div>
+            <div class="Footerbtn"><button>Be a Premium Member</button></div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 Robots and Armors | All rights reserved</p>
+    </div>
+</footer>
+
+
+<script src="script.js"></script>
+</body>
+</html>
